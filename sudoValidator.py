@@ -18,7 +18,7 @@ def run_and_get_exit_code():
         # The exit code of the 'sudo echo $?' command itself
         exit_code = result.returncode
 
-        print(exit_code)  # Print the exit code to stdout for the caller to capture
+        #print(exit_code)  # Print the exit code to stdout for the caller to capture
         return exit_code
 
     except Exception as e:
